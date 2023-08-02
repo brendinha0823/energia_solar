@@ -1,0 +1,52 @@
+@import url("./styles/header.css");
+
+
+:root{
+    --fundo: #f6f6f6;
+    --cor-cabecalho:#f6f6f6;
+    --cor-quadrado: #002F52;
+    --cor-titulo: #d17015;
+    --degradezin: 
+}   
+
+body{
+    background-color: var(--fundo);
+
+}
+
+.quadrado-azul{
+    background: #098CFF;
+    background: -moz-linear-gradient(top, #098CFF 0%, #15479F 69%, #001265 100%);
+    background: -webkit-linear-gradient(top, #098CFF 0%, #15479F 69%, #001265 100%);
+    background: linear-gradient(to bottom, #098CFF 0%, #15479F 69%, #001265 100%);
+}       
+.titulo-comeco{
+    color: var(--fundo);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.texto-comeco{
+    color: var(--fundo);
+    text-align: center;
+    font-weight: 1500;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.funciona{
+    color: var(--cor-quadrado);
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+.rodape{
+    text-align: center;
+}
