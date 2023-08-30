@@ -1,0 +1,85 @@
+@import url("./styles/header.css");
+@import url("./styles/carrossel.css");
+
+
+:root{
+    --fundo: #f6f6f6;
+    --cor-cabecalho:#f6f6f6;
+    --cor-quadrado: #002F52;
+    --cor-titulo: #d17015;
+    --degradezin: 
+}   
+
+body{
+    background-color: var(--fundo);
+
+}
+
+.quadrado-azul{
+    padding: 20px;
+    background: #098CFF;
+    background: -moz-linear-gradient(top, #098CFF 0%, #15479F 69%, #001265 100%);
+    background: -webkit-linear-gradient(top, #098CFF 0%, #15479F 69%, #001265 100%);
+    background: linear-gradient(to bottom, #098CFF 0%, #15479F 69%, #001265 100%);
+}       
+.titulo-comeco{
+    color: var(--fundo);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.texto-comeco{
+    color: var(--fundo);
+    text-align: center;
+    font-weight: 1500;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.funciona{
+    color: var(--cor-quadrado);
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.titulo-meio{
+    text-align: center;
+    font-weight: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.texto-1-1{
+    color: #000000;
+    text-align: center;
+    font-weight: 1500;
+    font-size: 15px;
+    font-family: sans-serif;  
+}
+
+.fundinho{
+    background-color: #EBECEE;
+}
+
+.texto-1-2{
+    color: #000000;
+    text-align: center;
+    font-weight: 1500;
+    font-size: 15px;
+    font-family: sans-serif; 
+}
+
+.imagem-texto{
+
+}
+
+.rodape{
+    text-align: center;
+}
+
